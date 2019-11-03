@@ -191,7 +191,7 @@ input {
 
 
 
-/* galery */
+/* Галерея */
 .mosaicflow__item p{
 	font-family: "Ceometrim mediua";
 	font-size: 24px;
@@ -199,41 +199,44 @@ input {
 
 .mosaicflow__column {
 	float:center;
-	}
+}
 
 .mosaicflow__item {
 	position:relative;
 	margin-bottom: 30px
-	}
-	.mosaicflow__item img {
-		display:block;
-		width:100%;
-		max-width:500px;
-		height:auto;
-		}
-	.mosaicflow__item p {
-		position:absolute;
-		bottom:0;
-		left:0;
-		width:100%;
-		margin:0;
-		padding:14px;
-		background:hsla(0,0%,0%,.5);
-		color:#fff;
-		font-size:14px;
-		text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
-		opacity:1;
-		-webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-		   -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-		     -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-		        transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
-		}
-	.mosaicflow__item:hover p {
-		opacity:1;
-		cursor:pointer;
-		background:linear-gradient(to right, #0099cc 20%, #66cc99 50%);
+}
+	
+.mosaicflow__item img {
+	display:block;
+	width:100%;
+	max-width:500px;
+	height:auto;
+}
+
+.mosaicflow__item p {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	margin:0;
+	padding:14px;
+	background:hsla(0,0%,0%,.5);
+	color:#fff;
+	font-size:14px;
+	text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
+	opacity:1;
+	-webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+	-moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+	-o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+	transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+}
+
+.mosaicflow__item:hover p {
+	opacity:1;
+	cursor:pointer;
+	background:linear-gradient(to right, #0099cc 20%, #66cc99 50%);
 		
-		}
+}
 
 img:hover{
 	cursor: pointer;
