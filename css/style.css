@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
 @font-face {
-	font-family: "Geometria Medium";
-	src: url("file:///C:/Users/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9/Desktop/%D0%9A%D0%BE%D1%82%D0%B8%D0%BA%20%D0%BD%D0%B0%20%D1%87%D0%B0%D1%81/fonts/Geometria-Medium.otf")
+	font-family: 'Geometria';
+	src: url('Geometria-Medium.eot');
+	src: local('Geometria Medium'), local('Geometria-Medium'),
+		url('Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Geometria-Medium.woff') format('woff'),
+		url('Geometria-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
 }
 
 * {
@@ -15,6 +21,11 @@
 	text-decoration: none;
 	font-size: 36px;
 	font-family: 'Bad Script';
+}
+
+.nav-link {
+	font-family: "Ceometrim mediua";
+	font-size: 15px;
 }
 
 .bg-color{
@@ -51,8 +62,13 @@ li a:hover {
 
 .fa {
 	margin-right: 7px ;
+
 }
 
+.btn{
+	font-family: "Ceometrim mediua";
+	font-size: 15px;
+}
 
 .carousel-indicators li {
  	width: 15px;
@@ -176,6 +192,11 @@ input {
 
 
 /* galery */
+.mosaicflow__item p{
+	font-family: "Ceometrim mediua";
+	font-size: 24px;
+}
+
 .mosaicflow__column {
 	float:center;
 	}
@@ -224,4 +245,8 @@ img:hover{
 	text-decoration:underline;
 }
 
+.footer_addres{
+	font-family: 'Ceometrim mediua'; 
+	font-size: 15px;
+}
 

@@ -9,10 +9,12 @@
 	  <!-- Bootstrap -->
     <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
 	  <link href="css/style.css" rel="stylesheet">
+	  
 	  <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <link href="https://fonts.googleapis.com/css?family=Bad+Script&display=swap" rel="stylesheet">	
 	  
+	 
 	  	  
   </head>
 <body>
@@ -23,8 +25,8 @@
     	<div class="container">
         	<h1 class="mb-3 font-italic logo"><a href="#"><img src="images/logo-cat.png" alt="" style="margin-right: 15px">Котик на час</a></h1>
         	<div class="d-flex flex-wrap" id="navbarCollapse">
-            	<span class="navbar-text ml-auto py-2 px-lg-5"><img src="images/logo-addres.png" alt="" style="margin-right: 14px;"> Пушкинская,28</span>
-				<span class="navbar-text ml-auto py-2 px-lg-1"><img src="images/logo-tel.png" alt="" style="margin-right: 12px">+7 982 567 64 54</span>
+            	<span class="navbar-text ml-auto py-2 px-lg-5"><img src="images/logo-addres.png" alt="" style="margin-right: 14px;font-family:'Ceometrim mediua';"> Пушкинская,28</span>
+				<span class="navbar-text ml-auto py-2 px-lg-1"><img src="images/logo-tel.png" alt="" style="margin-right: 12px; font-family: 'Ceometrim mediua';">+7 982 567 64 54</span>
 			</div>
 		</div>
 	</nav>
@@ -63,10 +65,8 @@
           </ul>
 			<!-- Копка Обратный звонок -->
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0 btn-default btn-lg ui-trigger javascript:void(0)" onclick="document.getElementById('parent_popup_click').style.display='block';" type="submit">
-				<span class="fa fa-phone"></span>Обратный звонок 
-			  </button>
-				 
+            <a class="btn btn-outline-success my-2 my-sm-0 btn-default btn-lg ui-trigger" href = "javascript:void(0)" onclick = "document.getElementById('parent_popup_click').style.display='block';document.getElementById('fade').style.display='block'">
+				<span class="fa fa-phone"></span>Обратный звонок </a>
 			  <div id="parent_popup_click">
  					<div id="popup_click">
 						<h3 class="title" style=" text-align: center;">Заказ обратного звонка</h3>
@@ -141,7 +141,7 @@
     </div>
     
 	<!-- -->
-    <h1 class="text-center">Возьми домой котика</h1>
+    <h1 class="text-center" style="font-size: 48px; font-family: 'Ceometrim mediua';">Возьми домой котика</h1>
 	<hr>
 	<h2 class="text-center"><img src="images/curse_line.png" alt=""></h2>
 	<hr>
@@ -202,10 +202,10 @@
     <div class="container p-4 ">
 		  <div class="row justify-content-between">
 		    <div class="col-4">
-				<a class="footer_polity" href="#" style="color: white">Политика конфиденциальности</a>
+				<a class="footer_polity" href="#" style="color: white; font-family: 'Ceometrim mediua'; font-size: 15px;">Политика конфиденциальности</a>
     		</div>
     		<div class="col-4 text-right">
-      		<address>
+      		<address class="footer_addres">
             <p>Пушкинска, 28</p>
             <p>+79285676454</p>
           </address>
