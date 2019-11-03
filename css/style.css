@@ -15,6 +15,9 @@
 	padding:0;
 	box-sizing:border-box;
 	}
+hr {	
+	border-color: white;
+}
 
 .logo a{
 	color: black;
