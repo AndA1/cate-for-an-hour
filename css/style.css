@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
+@font-face {
+	font-family: "Geometria Medium";
+	src: url("file:///C:/Users/%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9/Desktop/%D0%9A%D0%BE%D1%82%D0%B8%D0%BA%20%D0%BD%D0%B0%20%D1%87%D0%B0%D1%81/fonts/Geometria-Medium.otf")
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+
+.logo a{
+	color: black;
+	text-decoration: none;
+	font-size: 36px;
+	font-family: 'Bad Script';
+}
+
+.bg-color{
+    background-color: #333366;
+    border-color: #333366;
+}
+.bg-color a {
+	color: white;
+}
+
+li a:hover {
+	
+	background: #333333;
+	border-color: #333333;
+	
+}
+
+
+.navbar-toggler{
+	border-color: #333333;
+}
+
+
+.btn-outline-success{
+	border-radius: 50px;
+	color: white;
+	background: #6d5cad;
+	border-color: #6d5cad;
+}
+
+.btn-outline-success:hover{
+	background: linear-gradient(to right, #0099cc 20%, #66cc99 50%);
+}
+
+.fa {
+	margin-right: 7px ;
+}
+
+
+.carousel-indicators li {
+ 	width: 15px;
+ 	height: 15px;
+ 	border-radius: 100%;
+	background: rgba(0,0,0,0.1);
+}
+
+li :active{
+	background: #666666;
+}
+
+
+
+/* обратный звонок   */
+/* Всплывающее окно */  
+ 
+#parent_popup, #parent_popup_click {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#popup, #popup_click { 
+  background: #ccc;
+    max-width: 555px;
+    width:80%;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    
+    position: relative;
+    
+	
+	/*--Тени для Блока--*/
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 0px 20px #000;
+
+	/*-- Закругленные углы--*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+ 
+#popup h2, #popup_click h2 {
+    background: #cccccc;
+    font-weight: bold;
+    text-align: center;
+    color: #008000;
+    text-shadow: 0 1px 3px rgba(0,0,0,.3);
+    }
+
+#popup h3, #popup_click h3 {
+     
+    color: #333333;
+    text-align: center;
+    background: #999999;
+	
+    }
+
+/* кнопка закрытия */
+a.close{
+	font-size:40px;
+	font-weight:300;
+	color:#000000;
+	position:absolute;
+	right:3px;
+	top:-9px;
+}
+ 
+#popup_click {
+    background: #ccc;
+    max-width: 400px;
+}
+.title{
+	height: 50px;
+	width: 360px;
+	
+}
+input {
+  border: 1px solid #999999;
+  padding: 10px 10px;
+  display: block;
+  width: 90%;
+  margin-top: 1em;
+  border-radius: 20px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03)
+}
+
+.btn_call {
+  background-color: #666699;
+  
+  box-shadow: 0 none;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  font-size: 17px;
+ 
+  cursor: pointer;
+}
+
+.btn_call:hover{
+	background: linear-gradient(to right, #0099cc 20%, #66cc99 50%);
+}
+
+/* конец обратного звонка*/
+
+
+
+
+/* galery */
+.mosaicflow__column {
+	float:center;
+	}
+
+.mosaicflow__item {
+	position:relative;
+	margin-bottom: 30px
+	}
+	.mosaicflow__item img {
+		display:block;
+		width:100%;
+		max-width:500px;
+		height:auto;
+		}
+	.mosaicflow__item p {
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+		margin:0;
+		padding:14px;
+		background:hsla(0,0%,0%,.5);
+		color:#fff;
+		font-size:14px;
+		text-shadow:1px 1px 1px hsla(0,0%,0%,.75);
+		opacity:1;
+		-webkit-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+		   -moz-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+		     -o-transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+		        transition: all 0.4s cubic-bezier(0.23,1,0.32,1);
+		}
+	.mosaicflow__item:hover p {
+		opacity:1;
+		cursor:pointer;
+		background:linear-gradient(to right, #0099cc 20%, #66cc99 50%);
+		
+		}
+
+img:hover{
+	cursor: pointer;
+}
+
+
+/* Footer Футер*/
+.footer_polity {
+	text-decoration:underline;
+}
+
+
